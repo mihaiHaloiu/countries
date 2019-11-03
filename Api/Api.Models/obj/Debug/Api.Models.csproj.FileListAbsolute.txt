@@ -1,0 +1,6 @@
+D:\dotnet\country\Api\Api.Models\bin\Debug\Api.Models.dll
+D:\dotnet\country\Api\Api.Models\bin\Debug\Api.Models.pdb
+D:\dotnet\country\Api\Api.Models\obj\Debug\Api.Models.csprojAssemblyReference.cache
+D:\dotnet\country\Api\Api.Models\obj\Debug\Api.Models.csproj.CoreCompileInputs.cache
+D:\dotnet\country\Api\Api.Models\obj\Debug\Api.Models.dll
+D:\dotnet\country\Api\Api.Models\obj\Debug\Api.Models.pdb
