@@ -22,3 +22,16 @@ D:\dotnet\country\Api_Modified\APi.Dal\obj\Debug\APi.Dal.dll
 D:\dotnet\country\Api_Modified\APi.Dal\obj\Debug\APi.Dal.pdb
 D:\dotnet\country\Api_Modified\APi.Dal\bin\Debug\APi.Dal.dll.config
 D:\dotnet\country\Api_Modified\APi.Dal\bin\Debug\Api.Exceptions.dll.config
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\APi.Dal.dll.config
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\APi.Dal.dll
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\APi.Dal.pdb
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\Api.Exceptions.dll
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\Newtonsoft.Json.dll
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\Api.Exceptions.pdb
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\Api.Exceptions.dll.config
+D:\dotnet\country\countries\Api\APi.Dal\bin\Debug\Newtonsoft.Json.xml
+D:\dotnet\country\countries\Api\APi.Dal\obj\Debug\APi.Dal.csprojAssemblyReference.cache
+D:\dotnet\country\countries\Api\APi.Dal\obj\Debug\APi.Dal.csproj.CoreCompileInputs.cache
+D:\dotnet\country\countries\Api\APi.Dal\obj\Debug\APi.Dal.csproj.CopyComplete
+D:\dotnet\country\countries\Api\APi.Dal\obj\Debug\APi.Dal.dll
+D:\dotnet\country\countries\Api\APi.Dal\obj\Debug\APi.Dal.pdb
