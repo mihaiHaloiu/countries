@@ -32,7 +32,7 @@ namespace Api.Controllers
 
                     if (country == null)
                     {
-                        return Request.CreateResponse(HttpStatusCode.NoContent, "Country not found");
+                        return Request.CreateResponse(HttpStatusCode.NotFound, "Country not found");
                     }
 
                     return Request.CreateResponse(HttpStatusCode.OK, country);

@@ -97,16 +97,20 @@ namespace Api.Tests
 
         #region Test Methods
 
-        [TestCase(
-            TestName = "GIVEN a request with an existing countryCode value"
+        [TestCase("RO",
+            TestName = "GIVEN a request with an existing 2 characters countryCode value"
                        + "WHEN Countries/GetCountryByCode endpoint is called "
                        + "THEN the endpoint returns 200 (OK) along with the country details")]
-        public async Task GetCountryByCode_ValidCountryCode_ReturnsTheRightResponse()
+        [TestCase("ROI",
+            TestName = "GIVEN a request with an existing 3 characters countryCode value"
+                       + "WHEN Countries/GetCountryByCode endpoint is called "
+                       + "THEN the endpoint returns 200 (OK) along with the country details")]
+        public async Task GetCountryByCode_ValidCountryCode_ReturnsTheRightResponse(string countryCode)
         {
             //Arrange
             var countryCodeRequest = new CountryCodeRequest()
             {
-                CountryCode = "RO"
+                CountryCode = countryCode
             };
 
             _countryRepository.Setup(x => x.GetCountryByCode(countryCodeRequest.CountryCode)).Returns(Task.FromResult(CountryModelDto));
@@ -126,8 +130,8 @@ namespace Api.Tests
         [TestCase(
             TestName = "GIVEN a valid request that has no matching country for the provided countryCode value"
                        + "WHEN Countries/GetCountryByCode endpoint is called "
-                       + "THEN returns 204 (NoContent)")]
-        public async Task GetCountryByCode_NoMatchingCountry_ReturnsNoContent()
+                       + "THEN returns 404 (NotFound)")]
+        public async Task GetCountryByCode_NoMatchingCountry_ReturnsNotFound()
         {
             //Arrange
             var countryCodeRequest = new CountryCodeRequest()
@@ -140,7 +144,7 @@ namespace Api.Tests
             //Act
             var response = await _countriesController.GetByCountryCode(countryCodeRequest);
 
-            Assert.AreEqual(HttpStatusCode.NoContent, response.StatusCode);
+            Assert.AreEqual(HttpStatusCode.NotFound, response.StatusCode);
         }
 
         [TestCase(

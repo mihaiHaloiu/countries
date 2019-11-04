@@ -27,7 +27,6 @@ D:\dotnet\country\countries\Api\Api.Exceptions\bin\Debug\System.Web.Http.dll
 D:\dotnet\country\countries\Api\Api.Exceptions\bin\Debug\Newtonsoft.Json.xml
 D:\dotnet\country\countries\Api\Api.Exceptions\bin\Debug\System.Net.Http.Formatting.xml
 D:\dotnet\country\countries\Api\Api.Exceptions\bin\Debug\System.Web.Http.xml
-D:\dotnet\country\countries\Api\Api.Exceptions\obj\Debug\Api.Exceptions.csprojAssemblyReference.cache
 D:\dotnet\country\countries\Api\Api.Exceptions\obj\Debug\Api.Exceptions.csproj.CoreCompileInputs.cache
 D:\dotnet\country\countries\Api\Api.Exceptions\obj\Debug\Api.Exceptions.csproj.CopyComplete
 D:\dotnet\country\countries\Api\Api.Exceptions\obj\Debug\Api.Exceptions.dll
